@@ -1,0 +1,28 @@
+.app-container {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #000;
+  min-height: 100vh;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  width:100vw;
+
+}
+
+h1 {
+  color: #f0ebeb;
+  margin-bottom: 20px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
